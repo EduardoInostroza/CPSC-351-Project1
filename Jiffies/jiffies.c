@@ -4,6 +4,8 @@
 #include <linux/module.h>
 #include <linux/proc_fs.h>
 #include <asm/uaccess.h>
+#include <linux/hash.h>
+#include <linux/gcd.h>
 #include <linux/jiffies.h>
 //#include <stddef.h>
  
