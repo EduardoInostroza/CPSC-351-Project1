@@ -7,7 +7,8 @@
 #include <linux/hash.h>
 #include <linux/gcd.h>
 #include <linux/jiffies.h>
- 
+//#include <stddef.h>
+
 #define PROC_NAME "hello"
  
 //creating hello entry
