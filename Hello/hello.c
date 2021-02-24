@@ -1,10 +1,11 @@
 //Eduardo Inostroza
 #include <linux/init.h>
-#include <linux/module.h>
 #include <linux/kernel.h>
+#include <linux/module.h>
+#include <linux/proc_fs.h>
+#include <asm/uaccess.h>
 #include <linux/hash.h>
 #include <linux/gcd.h>
-#include <asm/param.h>
 #include <linux/jiffies.h>
  
 #define PROC_NAME "hello"
